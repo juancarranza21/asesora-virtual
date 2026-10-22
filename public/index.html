@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asesora Virtual · Vendedora con IA para Tiendanube</title>
+<meta name="description" content="Una vendedora virtual para tu tienda de ropa: recomienda el talle sin centímetro, pregunta como tu mejor vendedora y sugiere prendas de tu catálogo.">
+<meta name="theme-color" content="#06080f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/landing.css">
+</head>
+<body>
+<div class="blob b1"></div><div class="blob b2"></div><div class="blob b3"></div>
+<div class="grid-bg" aria-hidden="true"></div>
+<header class="nav">
+  <a class="logo" href="/"><span>✦</span> Asesora Virtual</a>
+  <nav aria-label="Secciones"><a href="#como">Cómo funciona</a><a href="#ia">Preguntas con IA</a><a href="#panel">Panel</a><a href="#planes">Planes</a><a href="#faq">Preguntas</a></nav>
+  <a class="btn sm" href="/tienda.html">Ver la demo</a>
+</header>
+
+<main>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-copy">
+      <span class="pill"><i></i> VENDEDORA CON INTELIGENCIA ARTIFICIAL</span>
+      <h1>Tu mejor vendedora, atendiendo tu tienda <em>las 24 horas</em>.</h1>
+      <p class="lead">Recomienda el talle <b>sin centímetro</b>, pregunta lo que preguntaría una vendedora en el local y sugiere las prendas de tu catálogo que van con cada cliente.</p>
+      <div class="ctas"><a class="btn" href="/tienda.html">Probar la tienda demo →</a><a class="btn ghost" href="#como">Ver cómo funciona</a></div>
+      <ul class="checks"><li>Sin que el cliente se mida</li><li>Se adapta al rubro de tu tienda</li><li>No pide datos personales</li></ul>
+    </div>
+    <div class="phone" aria-hidden="true">
+      <div class="phone-top"><span class="ph-face">🧡</span><div><b>Sofi</b><small>Vendedora virtual</small></div></div>
+      <div class="phone-chat" id="phoneChat"></div>
+    </div>
+  </section>
+
+  <!-- PROBLEMA -->
+  <section class="sec" id="problema">
+    <p class="kicker">El problema</p>
+    <h2>En el local, una vendedora te guía.<br><em>Online, el cliente está solo.</em></h2>
+    <div class="cards3">
+      <article class="card reveal"><span class="ic">🤔</span><h3>La duda del talle frena la compra</h3><p>“¿Me irá el M o el L?” Entre dudar o arriesgar, muchos cierran la pestaña y no vuelven.</p></article>
+      <article class="card reveal"><span class="ic">📦</span><h3>Cada cambio cuesta doble</h3><p>Envío de ida, envío de vuelta, tiempo de tu equipo y una prenda que no está a la venta mientras viaja.</p></article>
+      <article class="card reveal"><span class="ic">🧭</span><h3>Nadie lo orienta</h3><p>Una tabla de talles no sabe si el cliente busca algo para el trabajo, para una salida o si lo quiere holgado.</p></article>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA -->
+  <section class="sec" id="como">
+    <p class="kicker">La solución</p>
+    <h2>Hace lo que hace una buena vendedora</h2>
+    <div class="feats">
+      <article class="feat reveal"><span class="n">01</span><h3>Talle sin centímetro</h3><p>Con altura, peso, forma del cuerpo y el talle que usa siempre, estima las medidas y las cruza con la tabla de <b>cada prenda</b>.</p></article>
+      <article class="feat reveal"><span class="n">02</span><h3>Entiende cómo le gusta que le quede</h3><p>Si la quiere holgada y la prenda ya es oversize, no le sube el talle. Si es de calce al cuerpo, se lo explica. <b>Como en el probador.</b></p></article>
+      <article class="feat reveal"><span class="n">03</span><h3>Pregunta según tu rubro</h3><p>La IA arma las preguntas para tu tienda: ocasión, estilo, calce, presupuesto. No es lo mismo una tienda de lencería que una de ropa urbana.</p></article>
+      <article class="feat reveal"><span class="n">04</span><h3>Recomienda de tu catálogo</h3><p>Muestra prendas reales de tu tienda, cada una con su talle calculado y un botón para agregarla al carrito.</p></article>
+      <article class="feat reveal"><span class="n">05</span><h3>Responde dudas al instante</h3><p>Envíos, cambios, cuotas, cuidado de las prendas. Responde con tu información; si no sabe, no inventa: deriva a tu WhatsApp.</p></article>
+      <article class="feat reveal"><span class="n">06</span><h3>Te cuenta qué busca tu cliente</h3><p>Talles más pedidos, estilos, calces y las preguntas que tu tienda todavía no responde.</p></article>
+    </div>
+  </section>
+
+  <!-- COMPARATIVA -->
+  <section class="sec">
+    <p class="kicker">Por qué es distinta</p>
+    <h2>No es otra tabla de talles</h2>
+    <div class="tablewrap reveal">
+      <table class="cmp">
+        <thead><tr><th></th><th>Tabla de talles</th><th>Calculadora por medidas</th><th class="us">Asesora Virtual</th></tr></thead>
+        <tbody>
+          <tr><td>El cliente no necesita medirse</td><td>—</td><td>—</td><td class="us">✓</td></tr>
+          <tr><td>Tiene en cuenta cómo le gusta que le quede</td><td>—</td><td>A veces</td><td class="us">✓</td></tr>
+          <tr><td>Recomienda prendas según estilo y ocasión</td><td>—</td><td>—</td><td class="us">✓</td></tr>
+          <tr><td>Responde preguntas de la tienda</td><td>—</td><td>—</td><td class="us">✓</td></tr>
+          <tr><td>Explica por qué recomienda ese talle</td><td>—</td><td>—</td><td class="us">✓</td></tr>
+          <tr><td>Datos de tu audiencia para decidir compras</td><td>—</td><td>✓</td><td class="us">✓</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- DEMO -->
+  <section class="sec demo reveal" id="demo">
+    <div>
+      <p class="kicker">Demo en vivo</p>
+      <h2>Probala como si fueras un cliente</h2>
+      <p class="lead">Armamos <b>Alma Urbana</b>, una tienda de ropa ficticia con la asesora instalada. Hacé el cuestionario, pedí tu talle en cualquier prenda o preguntale algo.</p>
+      <a class="btn" href="/tienda.html">Entrar a la tienda demo →</a>
+    </div>
+    <a class="demo-card" href="/tienda.html" aria-label="Abrir la tienda demo Alma Urbana">
+      <span class="dc-bar"><i></i><i></i><i></i></span>
+      <span class="dc-name">Alma Urbana</span>
+      <span class="dc-grid"><span>👕</span><span>👖</span><span>🧥</span><span>👗</span></span>
+      <span class="dc-fab"><span>🧡</span> ¿Te ayudo a elegir?</span>
+    </a>
+  </section>
+
+  <!-- GENERADOR IA -->
+  <section class="sec" id="ia">
+    <p class="kicker">Inteligencia artificial</p>
+    <h2>Escribí tu rubro. <em>La IA entrena a tu vendedora.</em></h2>
+    <p class="lead">En segundos entiende qué decide la compra en tu tipo de tienda y arma las preguntas que haría una vendedora experta. Probalo acá:</p>
+    <div class="lab reveal">
+      <div class="lab-l">
+        <form class="prompt" id="genForm">
+          <span class="prompt-ic" aria-hidden="true">✦</span>
+          <label class="sr" for="genIn">¿Qué vende tu tienda?</label>
+          <input id="genIn" maxlength="160" placeholder="¿Qué vende tu tienda?" autocomplete="off">
+          <button class="prompt-go" type="submit" aria-label="Generar preguntas">→</button>
+        </form>
+        <div class="gen-ex" id="genEx"></div>
+        <ol class="pipe" id="pipe">
+          <li><i></i>Leyendo tu rubro</li>
+          <li><i></i>Detectando qué decide la compra</li>
+          <li><i></i>Redactando las preguntas con voseo</li>
+          <li><i></i>Revisando: nada de datos personales</li>
+        </ol>
+        <div class="insight hidden" id="insight"></div>
+      </div>
+      <div class="preview" id="genOut">
+        <div class="pv-idle"><div class="orb"></div><p>Esperando tu rubro…</p><small>Elegí un ejemplo o escribí el tuyo</small></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PANEL -->
+  <section class="sec" id="panel">
+    <p class="kicker">Panel del negocio</p>
+    <h2>Por fin vas a saber <em>qué busca tu cliente</em></h2>
+    <p class="lead">Usá la tienda demo y abrí el panel: tus consultas aparecen ahí en vivo. Y si respondés una pregunta pendiente, la asesora la aprende al instante.</p>
+    <p class="panel-cta"><a class="btn" href="/panel.html">Abrir el panel en vivo →</a></p>
+    <div class="dash reveal">
+      <div class="dash-h"><b>Resumen · últimos 30 días</b><span>Datos de ejemplo</span></div>
+      <div class="kpis">
+        <div><b>1.284</b><span>consultas a la asesora</span></div>
+        <div><b>M</b><span>talle más recomendado</span></div>
+        <div><b>Holgado</b><span>calce preferido</span></div>
+        <div><b>23</b><span>preguntas sin responder</span></div>
+      </div>
+      <div class="dash-g">
+        <div><h4>Talles recomendados</h4><div class="bars" data-bars="XS:6,S:18,M:34,L:26,XL:11,XXL:5"></div></div>
+        <div><h4>Qué buscan</h4><div class="bars" data-bars="Día a día:41,Salida:24,Trabajo:21,Fin de semana:14"></div></div>
+        <div><h4>Preguntas que tu tienda no responde</h4><ul class="qs"><li>¿Hacen factura A? <em>9</em></li><li>¿El jean estira? <em>7</em></li><li>¿Tienen local en Rosario? <em>4</em></li></ul></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INSTALACIÓN -->
+  <section class="sec">
+    <p class="kicker">Instalación</p>
+    <h2>Funcionando en tu tienda en un día</h2>
+    <ol class="steps">
+      <li class="reveal"><b>Instalás la app</b><span>Desde la tienda de aplicaciones de Tiendanube. La asesora toma tu catálogo sola.</span></li>
+      <li class="reveal"><b>Cargás tus tablas de talles</b><span>Subís la foto de tu tabla actual y la IA la pasa a digital. Vos revisás y aprobás.</span></li>
+      <li class="reveal"><b>Elegís tus preguntas</b><span>La IA te propone las preguntas según tu rubro. Las editás con tu tono.</span></li>
+      <li class="reveal"><b>Listo</b><span>El botón aparece en tu tienda y en cada producto. Vos mirás los resultados en el panel.</span></li>
+    </ol>
+  </section>
+
+  <!-- PLANES -->
+  <section class="sec" id="planes">
+    <p class="kicker">Planes</p>
+    <h2>Elegí el plan para tu tienda</h2>
+    <div class="plans">
+      <article class="plan reveal"><h3>Inicial</h3><p class="price">$0<small>/mes</small></p><p class="muted">Para probarla sin compromiso</p><ul><li>Hasta 30 productos</li><li>Asesor de talle sin centímetro</li><li>Preguntas frecuentes en el chat</li><li>Estadísticas básicas</li></ul><a class="btn ghost" href="/tienda.html">Empezar gratis</a></article>
+      <article class="plan pop reveal"><span class="badge">Recomendado</span><h3>Profesional</h3><p class="price">$39.000<small>/mes</small></p><p class="muted">Para tiendas que venden todos los días</p><ul><li>Hasta 200 productos</li><li>Preguntas de estilo generadas con IA</li><li>Recomendación de prendas</li><li>Chat con IA y derivación a WhatsApp</li><li>Panel completo y reporte mensual</li></ul><a class="btn" href="/tienda.html">Quiero este plan</a></article>
+      <article class="plan reveal"><h3>Escala</h3><p class="price">$79.000<small>/mes</small></p><p class="muted">Para marcas con mucho catálogo</p><ul><li>Productos ilimitados</li><li>Carga de tablas con IA desde foto</li><li>Personalización de la asesora (nombre, tono, colores)</li><li>Implementación 1 a 1 por videollamada</li></ul><a class="btn ghost" href="/tienda.html">Hablemos</a></article>
+    </div>
+    <p class="fine">Precios de referencia en pesos argentinos, sin IVA.</p>
+  </section>
+
+  <!-- FAQ -->
+  <section class="sec" id="faq">
+    <p class="kicker">Preguntas frecuentes</p>
+    <h2>Todo lo que necesitás saber</h2>
+    <div class="faq">
+      <details><summary>¿Qué tan preciso es el talle sin centímetro?</summary><p>Estima las medidas con altura, peso y forma del cuerpo, y las corrige con el talle que el cliente usa siempre. Con ese dato la precisión sube mucho, y además le muestra al cliente cuánta confianza tiene en cada recomendación.</p></details>
+      <details><summary>¿Funciona solo con Tiendanube?</summary><p>Arranca como app de Tiendanube. Como es un widget independiente, también se puede instalar en Shopify, WooCommerce o en cualquier web con una línea de código.</p></details>
+      <details><summary>¿Guarda datos de mis clientes?</summary><p>No pide nombre, teléfono, mail ni medidas exactas. El perfil de talle queda en el dispositivo del cliente. Al panel llegan solo estadísticas anónimas.</p></details>
+      <details><summary>¿Qué pasa si la IA no sabe una respuesta?</summary><p>No inventa. Responde solo con la información de tu tienda y, si no la tiene, deriva al cliente a tu WhatsApp y te guarda la pregunta para que la sumes.</p></details>
+      <details><summary>¿Puedo cambiar las preguntas y el nombre de la asesora?</summary><p>Sí. La IA te propone las preguntas según tu rubro, pero vos las editás, cambiás el tono y elegís el nombre y los colores.</p></details>
+      <details><summary>¿Sirve para calzado o ropa interior?</summary><p>Sí, con su propia lógica de talles: largo del pie en calzado y contorno y copa en corsetería. Las preguntas también cambian según el rubro.</p></details>
+    </div>
+  </section>
+
+  <section class="final reveal">
+    <h2>Dale a tu tienda la vendedora que se merece</h2>
+    <p>Probala ahora en la tienda demo. Tarda un minuto.</p>
+    <a class="btn light" href="/tienda.html">Probar la demo →</a>
+  </section>
+</main>
+
+<footer class="foot"><span>✦ Asesora Virtual</span><span>Proyecto de portafolio · 2026</span></footer>
+<script src="/js/common.js"></script>
+<script src="/js/prendas.js"></script>
+<script src="/js/landing.js"></script>
+</body>
+</html>

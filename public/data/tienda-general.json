@@ -1,0 +1,888 @@
+{
+  "tienda": {
+    "id": "general",
+    "nombre": "Alma Urbana",
+    "rubro": "indumentaria urbana para mujer y hombre",
+    "lema": "Ropa urbana para todos los días",
+    "asesora": "Sofi",
+    "avatar": "🧡",
+    "whatsapp": "5490000000000",
+    "cuotas": 3,
+    "envioGratisDesde": 90000,
+    "tema": {
+      "bg": "#f6f1ea",
+      "ink": "#2a2420",
+      "muted": "#7d7068",
+      "accent": "#c4643b",
+      "accent2": "#e59a6e",
+      "card": "#ffffff",
+      "line": "rgba(42,36,32,.1)"
+    }
+  },
+  "preguntas": [
+    {
+      "id": "ocasion",
+      "t": "¿Para qué ocasión buscás?",
+      "o": [
+        {
+          "v": "diario",
+          "e": "☀️",
+          "l": "El día a día",
+          "s": "Cómodo y práctico"
+        },
+        {
+          "v": "trabajo",
+          "e": "💼",
+          "l": "Trabajo u oficina",
+          "s": "Prolijo sin ser formal"
+        },
+        {
+          "v": "salida",
+          "e": "🌙",
+          "l": "Una salida",
+          "s": "Cena, cumple, after"
+        },
+        {
+          "v": "finde",
+          "e": "🛋️",
+          "l": "Fin de semana",
+          "s": "Relajado, para estar cómodo"
+        }
+      ]
+    },
+    {
+      "id": "estilo",
+      "t": "¿Con qué estilo te sentís más vos?",
+      "o": [
+        {
+          "v": "basico",
+          "e": "🤍",
+          "l": "Básico y minimal",
+          "s": "Colores neutros, combina con todo"
+        },
+        {
+          "v": "urbano",
+          "e": "🧢",
+          "l": "Urbano / streetwear",
+          "s": "Buzos, cargos, oversize"
+        },
+        {
+          "v": "elegante",
+          "e": "✨",
+          "l": "Elegante",
+          "s": "Lino, sastrería, satén"
+        },
+        {
+          "v": "tendencia",
+          "e": "🔥",
+          "l": "Lo que está en tendencia",
+          "s": "Lo último de la temporada"
+        }
+      ]
+    },
+    {
+      "id": "cat",
+      "t": "¿Qué estás buscando?",
+      "o": [
+        {
+          "v": "arriba",
+          "e": "👕",
+          "l": "Parte de arriba",
+          "s": "Remeras, camisas, sweaters"
+        },
+        {
+          "v": "abajo",
+          "e": "👖",
+          "l": "Parte de abajo",
+          "s": "Jeans, pantalones"
+        },
+        {
+          "v": "abrigo",
+          "e": "🧥",
+          "l": "Abrigo",
+          "s": "Camperas, buzos, blazers"
+        },
+        {
+          "v": "todo",
+          "e": "🛍️",
+          "l": "Armar un look completo",
+          "s": "Mostrame un poco de todo"
+        }
+      ]
+    },
+    {
+      "id": "calce",
+      "t": "¿Cómo te gusta que te quede la ropa?",
+      "o": [
+        {
+          "v": "ajustado",
+          "e": "📐",
+          "l": "Al cuerpo",
+          "s": "Que marque la silueta"
+        },
+        {
+          "v": "normal",
+          "e": "👌",
+          "l": "Normal",
+          "s": "Ni ajustado ni suelto"
+        },
+        {
+          "v": "holgado",
+          "e": "🌬️",
+          "l": "Holgado / oversize",
+          "s": "Suelto y cómodo"
+        }
+      ]
+    },
+    {
+      "id": "presupuesto",
+      "t": "¿Hasta cuánto querés gastar por prenda?",
+      "o": [
+        {
+          "v": "30000",
+          "e": "💸",
+          "l": "Hasta $30.000",
+          "s": ""
+        },
+        {
+          "v": "60000",
+          "e": "💳",
+          "l": "Hasta $60.000",
+          "s": ""
+        },
+        {
+          "v": "0",
+          "e": "🤷",
+          "l": "No importa",
+          "s": "Mostrame lo mejor"
+        }
+      ]
+    }
+  ],
+  "tablas": {
+    "mujer": {
+      "pecho": [
+        [
+          "XS",
+          78,
+          84
+        ],
+        [
+          "S",
+          84,
+          90
+        ],
+        [
+          "M",
+          90,
+          96
+        ],
+        [
+          "L",
+          96,
+          102
+        ],
+        [
+          "XL",
+          102,
+          108
+        ],
+        [
+          "XXL",
+          108,
+          116
+        ]
+      ],
+      "cintura": [
+        [
+          "XS",
+          60,
+          66
+        ],
+        [
+          "S",
+          66,
+          72
+        ],
+        [
+          "M",
+          72,
+          78
+        ],
+        [
+          "L",
+          78,
+          86
+        ],
+        [
+          "XL",
+          86,
+          94
+        ],
+        [
+          "XXL",
+          94,
+          104
+        ]
+      ],
+      "cadera": [
+        [
+          "XS",
+          86,
+          92
+        ],
+        [
+          "S",
+          92,
+          98
+        ],
+        [
+          "M",
+          98,
+          104
+        ],
+        [
+          "L",
+          104,
+          110
+        ],
+        [
+          "XL",
+          110,
+          116
+        ],
+        [
+          "XXL",
+          116,
+          124
+        ]
+      ]
+    },
+    "hombre": {
+      "pecho": [
+        [
+          "XS",
+          82,
+          88
+        ],
+        [
+          "S",
+          88,
+          94
+        ],
+        [
+          "M",
+          94,
+          100
+        ],
+        [
+          "L",
+          100,
+          106
+        ],
+        [
+          "XL",
+          106,
+          114
+        ],
+        [
+          "XXL",
+          114,
+          122
+        ]
+      ],
+      "cintura": [
+        [
+          "XS",
+          68,
+          74
+        ],
+        [
+          "S",
+          74,
+          80
+        ],
+        [
+          "M",
+          80,
+          86
+        ],
+        [
+          "L",
+          86,
+          94
+        ],
+        [
+          "XL",
+          94,
+          102
+        ],
+        [
+          "XXL",
+          102,
+          112
+        ]
+      ],
+      "cadera": [
+        [
+          "XS",
+          84,
+          90
+        ],
+        [
+          "S",
+          90,
+          96
+        ],
+        [
+          "M",
+          96,
+          102
+        ],
+        [
+          "L",
+          102,
+          108
+        ],
+        [
+          "XL",
+          108,
+          114
+        ],
+        [
+          "XXL",
+          114,
+          122
+        ]
+      ]
+    }
+  },
+  "productos": [
+    {
+      "id": "remera-oversize",
+      "n": "Remera oversize algodón peinado",
+      "p": 24900,
+      "cat": "arriba",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "oversize",
+      "medida": "pecho",
+      "tags": [
+        "diario",
+        "finde",
+        "urbano",
+        "basico"
+      ],
+      "e": "👕",
+      "c": [
+        "#e8d9c8",
+        "#cfb79c"
+      ],
+      "why": "es de algodón peinado pesado y tiene el hombro caído que la hace ver suelta sin quedar grande",
+      "tela": "100% algodón peinado de 24/1, pesado",
+      "colores": [
+        "verde oliva",
+        "blanco",
+        "negro",
+        "arena"
+      ]
+    },
+    {
+      "id": "remera-basica",
+      "n": "Remera básica regular",
+      "p": 16900,
+      "cat": "arriba",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "regular",
+      "medida": "pecho",
+      "tags": [
+        "diario",
+        "trabajo",
+        "basico"
+      ],
+      "e": "👕",
+      "c": [
+        "#f2f2f0",
+        "#d9d6d0"
+      ],
+      "why": "es el básico que combina con todo y no se deforma con los lavados",
+      "tela": "algodón con 5% de elastano",
+      "colores": [
+        "blanco",
+        "negro",
+        "gris melange",
+        "azul marino"
+      ]
+    },
+    {
+      "id": "camisa-lino",
+      "n": "Camisa de lino",
+      "p": 42900,
+      "cat": "arriba",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "regular",
+      "medida": "pecho",
+      "tags": [
+        "trabajo",
+        "salida",
+        "finde",
+        "elegante",
+        "basico"
+      ],
+      "e": "👔",
+      "c": [
+        "#efe6d6",
+        "#d8c7a8"
+      ],
+      "why": "el lino es fresco, queda prolijo para la oficina y relajado con el puño arremangado",
+      "tela": "lino con algodón, fresca y liviana",
+      "colores": [
+        "celeste",
+        "blanco",
+        "crudo"
+      ]
+    },
+    {
+      "id": "sweater-trenzas",
+      "n": "Sweater tejido de trenzas",
+      "p": 54900,
+      "cat": "arriba",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "oversize",
+      "medida": "pecho",
+      "tags": [
+        "diario",
+        "trabajo",
+        "finde",
+        "basico",
+        "elegante"
+      ],
+      "e": "🧶",
+      "c": [
+        "#e4d3bd",
+        "#b99772"
+      ],
+      "why": "es abrigado sin ser pesado y su tejido grueso queda lindo suelto",
+      "tela": "tejido de hilo acrílico y lana, abrigado",
+      "colores": [
+        "camel",
+        "crudo",
+        "gris"
+      ]
+    },
+    {
+      "id": "top-corset",
+      "n": "Top corset",
+      "p": 32900,
+      "cat": "arriba",
+      "para": [
+        "mujer"
+      ],
+      "calce": "slim",
+      "medida": "pecho",
+      "tags": [
+        "salida",
+        "tendencia",
+        "elegante"
+      ],
+      "e": "🎀",
+      "c": [
+        "#2b2420",
+        "#5a463a"
+      ],
+      "why": "marca la cintura y es la prenda estrella para una salida",
+      "tela": "satén con varillas flexibles y cierre lateral",
+      "colores": [
+        "negro",
+        "chocolate"
+      ]
+    },
+    {
+      "id": "hoodie-frisa",
+      "n": "Buzo hoodie de frisa",
+      "p": 46900,
+      "cat": "abrigo",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "oversize",
+      "medida": "pecho",
+      "tags": [
+        "diario",
+        "finde",
+        "urbano"
+      ],
+      "e": "🧥",
+      "c": [
+        "#8c9a8a",
+        "#5f6e5e"
+      ],
+      "why": "tiene frisa por dentro, capucha doble y el calce amplio del streetwear",
+      "tela": "frisa de algodón invisible por dentro",
+      "colores": [
+        "verde salvia",
+        "gris melange",
+        "negro"
+      ]
+    },
+    {
+      "id": "puffer-corta",
+      "n": "Campera puffer corta",
+      "p": 89900,
+      "cat": "abrigo",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "regular",
+      "medida": "pecho",
+      "tags": [
+        "diario",
+        "finde",
+        "urbano",
+        "tendencia"
+      ],
+      "e": "🧥",
+      "c": [
+        "#3d3a36",
+        "#1f1d1b"
+      ],
+      "why": "abriga mucho, es liviana y el largo corto es lo que se usa esta temporada",
+      "tela": "nylon con relleno de guata siliconada, repele llovizna",
+      "colores": [
+        "negro",
+        "beige"
+      ]
+    },
+    {
+      "id": "blazer",
+      "n": "Blazer estructurado",
+      "p": 79900,
+      "cat": "abrigo",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "regular",
+      "medida": "pecho",
+      "tags": [
+        "trabajo",
+        "salida",
+        "elegante"
+      ],
+      "e": "🧥",
+      "c": [
+        "#4b4038",
+        "#2e2722"
+      ],
+      "why": "le da una vuelta elegante a cualquier jean o pantalón",
+      "tela": "paño de sastrería con forro",
+      "colores": [
+        "chocolate",
+        "negro",
+        "beige"
+      ]
+    },
+    {
+      "id": "jean-mom",
+      "n": "Jean mom tiro alto",
+      "p": 52900,
+      "cat": "abajo",
+      "para": [
+        "mujer"
+      ],
+      "calce": "regular",
+      "medida": "cadera",
+      "lbl": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "tags": [
+        "diario",
+        "finde",
+        "salida",
+        "urbano",
+        "tendencia"
+      ],
+      "e": "👖",
+      "c": [
+        "#8fa6c2",
+        "#5d7697"
+      ],
+      "why": "es tiro alto, marca la cintura y es cómodo para todo el día",
+      "tela": "denim rígido 100% algodón",
+      "colores": [
+        "azul clásico",
+        "celeste nevado",
+        "negro"
+      ]
+    },
+    {
+      "id": "wide-leg",
+      "n": "Pantalón wide leg sastrero",
+      "p": 58900,
+      "cat": "abajo",
+      "para": [
+        "mujer"
+      ],
+      "calce": "oversize",
+      "medida": "cadera",
+      "lbl": [
+        "36",
+        "38",
+        "40",
+        "42",
+        "44",
+        "46"
+      ],
+      "tags": [
+        "trabajo",
+        "salida",
+        "elegante",
+        "tendencia"
+      ],
+      "e": "👖",
+      "c": [
+        "#d9cbb7",
+        "#a8957b"
+      ],
+      "why": "la pierna amplia estiliza y queda elegante con zapatillas o con taco",
+      "tela": "sastrero con caída, con 3% de elastano",
+      "colores": [
+        "beige",
+        "negro",
+        "gris topo"
+      ]
+    },
+    {
+      "id": "jean-slim",
+      "n": "Jean slim fit",
+      "p": 54900,
+      "cat": "abajo",
+      "para": [
+        "hombre"
+      ],
+      "calce": "slim",
+      "medida": "cintura",
+      "lbl": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "tags": [
+        "diario",
+        "trabajo",
+        "salida",
+        "basico",
+        "urbano"
+      ],
+      "e": "👖",
+      "c": [
+        "#5a6f8f",
+        "#34445e"
+      ],
+      "why": "tiene un poco de elastano: entalla sin apretar",
+      "tela": "denim con 2% de elastano",
+      "colores": [
+        "azul oscuro",
+        "negro"
+      ]
+    },
+    {
+      "id": "chino",
+      "n": "Pantalón chino regular",
+      "p": 46900,
+      "cat": "abajo",
+      "para": [
+        "hombre"
+      ],
+      "calce": "regular",
+      "medida": "cintura",
+      "lbl": [
+        "38",
+        "40",
+        "42",
+        "44",
+        "46",
+        "48"
+      ],
+      "tags": [
+        "trabajo",
+        "diario",
+        "basico",
+        "elegante"
+      ],
+      "e": "👖",
+      "c": [
+        "#c9b48f",
+        "#9c865e"
+      ],
+      "why": "es el comodín de la oficina: prolijo y cómodo",
+      "tela": "gabardina de algodón con elastano",
+      "colores": [
+        "beige",
+        "azul marino",
+        "verde militar"
+      ]
+    },
+    {
+      "id": "cargo-parachute",
+      "n": "Cargo parachute",
+      "p": 49900,
+      "cat": "abajo",
+      "para": [
+        "mujer",
+        "hombre"
+      ],
+      "calce": "oversize",
+      "medida": "cintura",
+      "tags": [
+        "diario",
+        "finde",
+        "urbano",
+        "tendencia"
+      ],
+      "e": "👖",
+      "c": [
+        "#6b6a5a",
+        "#45443a"
+      ],
+      "why": "tiene cintura y botamanga con cordón para ajustarlo a tu gusto",
+      "tela": "nylon liviano tipo parachute",
+      "colores": [
+        "verde militar",
+        "negro",
+        "arena"
+      ]
+    },
+    {
+      "id": "vestido-midi",
+      "n": "Vestido midi satinado",
+      "p": 64900,
+      "cat": "vestido",
+      "para": [
+        "mujer"
+      ],
+      "calce": "regular",
+      "medida": "cadera",
+      "tags": [
+        "salida",
+        "elegante",
+        "tendencia"
+      ],
+      "e": "👗",
+      "c": [
+        "#b5654a",
+        "#7f3f2c"
+      ],
+      "why": "el satén tiene una caída hermosa y el largo midi sirve de día y de noche",
+      "tela": "satén de seda sintética con forro",
+      "colores": [
+        "terracota",
+        "negro",
+        "verde esmeralda"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "q": "¿Hacen envíos?",
+      "a": "Sí, enviamos a todo el país. El envío es **gratis desde $90.000** y tarda entre 3 y 6 días hábiles.",
+      "k": "envio llega tarda correo domicilio"
+    },
+    {
+      "q": "¿Puedo cambiar una prenda?",
+      "a": "Sí, tenés **30 días para cambiarla** sin uso y con la etiqueta puesta. El primer cambio por talle es gratis 🙌",
+      "k": "cambio devolucion no me queda"
+    },
+    {
+      "q": "¿Qué medios de pago aceptan?",
+      "a": "Tarjetas de crédito y débito, Mercado Pago y transferencia. Tenés **3 cuotas sin interés** en toda la tienda.",
+      "k": "pago tarjeta cuotas transferencia mercado"
+    },
+    {
+      "q": "¿Tienen local físico?",
+      "a": "Esta es una tienda de demostración, así que no tiene local. En una tienda real acá van la dirección y los horarios 😉",
+      "k": "local direccion showroom horario"
+    },
+    {
+      "q": "¿Cómo lavo las prendas?",
+      "a": "Lavá del revés con agua fría y secá a la sombra. El lino y el satén, mejor a mano o en ciclo delicado.",
+      "k": "lavar lavado cuidado planchar lino saten"
+    },
+    {
+      "q": "¿Las prendas son unisex?",
+      "a": "Muchas sí: remeras, buzos, camperas y el cargo. En cada producto te indicamos para quién está pensada la tabla de talles.",
+      "k": "unisex hombre mujer"
+    },
+    {
+      "q": "¿Qué talles tienen?",
+      "a": "Del **XS al XXL** en prendas de arriba, y del **36 al 46** (mujer) o **38 al 48** (hombre) en jeans y pantalones. Si me decís tu altura, peso y talle habitual, te digo el tuyo en cada prenda 📏",
+      "k": "talles disponibles xs xxl numeros talle grande chico"
+    },
+    {
+      "q": "¿Hay stock?",
+      "a": "Todo lo que ves en la tienda tiene stock. Al elegir el talle en la prenda te muestra si queda poco 😉",
+      "k": "stock disponible quedan hay agotado"
+    },
+    {
+      "q": "¿Cuánto tarda el envío?",
+      "a": "Entre **3 y 6 días hábiles** a todo el país. En CABA y GBA suele llegar en 48 a 72 horas.",
+      "k": "demora tarda dias cuando llega caba gba"
+    },
+    {
+      "q": "¿Se puede retirar?",
+      "a": "Esta es una tienda de demostración, así que no hay punto de retiro. En una tienda real acá van el lugar y los horarios 😉",
+      "k": "retiro retirar pick up buscar persona"
+    },
+    {
+      "q": "¿Hacen factura?",
+      "a": "Sí, todas las compras llevan factura. Si necesitás **factura A**, avisanos en el comentario del pedido.",
+      "k": "factura a b cuit monotributo"
+    },
+    {
+      "q": "¿Tienen gift card?",
+      "a": "¡Sí! Hay gift cards digitales de **$20.000, $50.000 y $100.000**. Se mandan por mail y vencen a los 6 meses 🎁",
+      "k": "gift card regalo tarjeta regalar voucher"
+    },
+    {
+      "q": "¿Venden por mayor?",
+      "a": "Por ahora vendemos solo por menor. Para pedidos grandes, escribinos por WhatsApp y lo vemos.",
+      "k": "mayor mayorista cantidad revender"
+    },
+    {
+      "q": "¿Cómo es el cambio?",
+      "a": "Escribinos por WhatsApp con tu número de pedido, mandás la prenda por correo (el primer cambio por talle es gratis) y te enviamos la nueva apenas la recibimos.",
+      "k": "como cambio proceso cambiar talle devolver"
+    },
+    {
+      "q": "¿Tienen descuentos?",
+      "a": "Tenés **10% OFF pagando por transferencia** y envío gratis desde $90.000. Suscribite al newsletter para enterarte de las promos 💌",
+      "k": "descuento promo oferta sale rebaja codigo cupon transferencia efectivo off"
+    },
+    {
+      "q": "¿Las prendas encogen?",
+      "a": "Las de algodón ya vienen prelavadas, así que no encogen si seguís la etiqueta: agua fría y secado a la sombra.",
+      "k": "encoge achica achicar lavarropas secarropas"
+    }
+  ]
+}

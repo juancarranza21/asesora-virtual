@@ -1,0 +1,16 @@
+# Configuración de Cloudflare Pages · Asesora Virtual (demo de portafolio)
+# Se publica en Pages para que el link sea solo el nombre del proyecto: https://asesora-virtual.pages.dev
+# (En Workers el link lleva además el subdominio de la cuenta.)
+name = "asesora-virtual"
+pages_build_output_dir = "./public"
+compatibility_date = "2025-09-01"
+
+# public/_worker.js toma todas las peticiones: agrega cabeceras de seguridad, sirve la página (env.ASSETS) y la API de IA.
+
+# IA de Cloudflare (plan gratuito: 10.000 neuronas por día)
+[ai]
+binding = "AI"
+
+[vars]
+AI_MODEL = "@cf/meta/llama-3.3-70b-instruct-fp8-fast"          # chat: solo se usa si el cerebro local no sabe responder
+AI_MODEL_QUESTIONS = "@cf/meta/llama-3.3-70b-instruct-fp8-fast" # preguntas por rubro (se usa poco)

@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Panel del negocio · Asesora Virtual</title>
+<meta name="description" content="Panel de demostración: qué buscan los clientes, talles más pedidos, ventas asistidas y preguntas sin responder.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#06080f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%A8%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/panel.css">
+</head>
+<body>
+<div class="glow" aria-hidden="true"></div>
+<header class="top">
+  <a class="logo" href="/"><span>✦</span> Asesora Virtual</a>
+  <div class="shop"><b id="shopName">Alma Urbana</b><small>Panel del negocio</small></div>
+  <nav><a href="/tienda.html">Ver la tienda</a><a href="/">Presentación</a></nav>
+</header>
+
+<main class="wrap">
+  <div class="note"><b>Demo:</b> datos de ejemplo + <b>tu actividad real</b> en la tienda demo. Usá la tienda, volvé acá y vas a ver tus consultas sumadas.</div>
+
+  <div class="filters" role="group" aria-label="Período">
+    <button data-act="periodo" data-arg="7">Últimos 7 días</button>
+    <button data-act="periodo" data-arg="30" class="on">Últimos 30 días</button>
+    <button data-act="periodo" data-arg="90">Últimos 90 días</button>
+  </div>
+
+  <section class="kpis" id="kpis" aria-label="Resumen"></section>
+
+  <section class="card wide">
+    <div class="card-h"><h2>Consultas a la asesora por día</h2><span class="sub" id="serieSub"></span></div>
+    <div class="chart" id="serie"></div>
+  </section>
+
+  <section class="card ai" id="insights" aria-label="Insights de la IA"></section>
+
+  <div class="grid3">
+    <section class="card"><div class="card-h"><h2>Talles recomendados</h2><span class="sub">% de recomendaciones</span></div><div class="chart" id="talles"></div></section>
+    <section class="card"><div class="card-h"><h2>Cómo les gusta que les quede</h2></div><div id="calce"></div></section>
+    <section class="card"><div class="card-h"><h2>Para qué ocasión buscan</h2></div><div id="ocasion"></div></section>
+  </div>
+
+  <section class="card wide">
+    <div class="card-h"><h2>Prendas que más recomienda la asesora</h2><span class="sub">y cuántas terminan en el carrito</span></div>
+    <div class="tbl-wrap"><table class="tbl" id="prendas"></table></div>
+  </section>
+
+  <div class="grid2">
+    <section class="card"><div class="card-h"><h2>Preguntas sin responder</h2><span class="sub">Respondelas y la asesora las aprende al instante</span></div><div id="sinResp"></div></section>
+    <section class="card"><div class="card-h"><h2>Tu actividad en la demo</h2><button class="link" data-act="borrar">Borrar</button></div><div id="feed"></div></section>
+  </div>
+</main>
+<footer class="foot">Asesora Virtual · panel de demostración · los datos de ejemplo no son de una tienda real</footer>
+<div class="tip" id="tip" role="tooltip"></div>
+<div class="toast" id="toast" role="status"></div>
+<script src="/js/common.js"></script>
+<script src="/js/prendas.js"></script>
+<script src="/js/panel.js"></script>
+</body>
+</html>

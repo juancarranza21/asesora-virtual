@@ -1,0 +1,69 @@
+/* Tienda de demostración. Los colores salen del JSON de la tienda (tienda.tema). */
+:root{--bg:#f6f1ea;--ink:#2a2420;--muted:#7d7068;--accent:#c4643b;--accent2:#e59a6e;--card:#fff;--line:rgba(42,36,32,.1);--onAccent:#fff;--ease:cubic-bezier(.22,1,.36,1);--f:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;--serif:"Fraunces",Georgia,serif}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0}
+body{font-family:var(--f);background:var(--bg);color:var(--ink);overflow-x:hidden}
+button{font-family:inherit}
+a{color:inherit}
+.demobar{display:flex;flex-wrap:wrap;gap:4px 14px;justify-content:space-between;align-items:center;padding:8px 16px;background:var(--ink);color:var(--bg);font-size:12.5px}
+.demobar a{text-decoration:none;font-weight:600}
+.demobar span{opacity:.75}
+.shop-h{position:sticky;top:0;z-index:5;display:flex;align-items:center;gap:20px;padding:14px clamp(16px,4vw,48px);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.brand{font-family:var(--serif);font-size:24px;font-weight:600;text-decoration:none;letter-spacing:-.01em}
+.shop-nav{display:flex;gap:20px;margin-left:auto;font-size:14.5px}
+.shop-nav a{text-decoration:none;color:var(--muted);transition:color .2s}
+.shop-nav a:hover{color:var(--ink)}
+.cart{border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:30px;padding:8px 14px;font-size:15px;cursor:pointer;font-weight:600}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;align-items:center;padding:clamp(28px,6vw,72px) clamp(16px,4vw,48px)}
+.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:12px;color:var(--accent);font-weight:700;margin:0 0 10px}
+.hero h1{font-family:var(--serif);font-size:clamp(34px,5.4vw,60px);line-height:1.03;margin:0 0 14px;font-weight:500;letter-spacing:-.02em;max-width:14ch}
+.hero p{color:var(--muted);font-size:16.5px;line-height:1.55;max-width:46ch;margin:0}
+.hero p b{color:var(--ink)}
+.hero-btn{margin-top:22px;border:0;border-radius:40px;padding:14px 22px;background:var(--accent);color:var(--onAccent);font-weight:700;font-size:15.5px;cursor:pointer;box-shadow:0 10px 26px color-mix(in srgb,var(--accent) 35%,transparent);transition:transform .2s var(--ease)}
+.hero-btn:hover{transform:translateY(-2px)}
+.hero-art{position:relative;height:280px}
+.hero-art span{position:absolute;display:grid;place-items:center;border-radius:28px;font-size:64px;box-shadow:0 24px 50px rgba(0,0,0,.12);animation:bob 7s ease-in-out infinite}
+.hero-art span svg{width:80%;height:84%}
+.hero-art span:nth-child(1){width:180px;height:220px;right:30%;top:0;background:linear-gradient(150deg,#e4d3bd,#b99772)}
+.hero-art span:nth-child(2){width:150px;height:190px;right:4%;top:50px;background:linear-gradient(150deg,#8fa6c2,#5d7697);animation-delay:-2.5s}
+.hero-art span:nth-child(3){width:130px;height:150px;right:46%;top:130px;background:linear-gradient(150deg,var(--accent2),var(--accent));animation-delay:-5s}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-12px) rotate(2deg)}}
+#productos{padding:0 clamp(16px,4vw,48px) 60px}
+.filters{display:flex;gap:8px;overflow-x:auto;padding-bottom:6px;margin-bottom:18px;scrollbar-width:none}
+.filters button{flex:none;border:1px solid var(--line);background:var(--card);color:var(--muted);border-radius:30px;padding:8px 16px;font-size:14px;cursor:pointer;transition:all .2s}
+.filters button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:22px 18px}
+.pcard{animation:rise .5s var(--ease) both}
+.pimg{position:relative;aspect-ratio:4/5;border-radius:18px;display:grid;place-items:center;overflow:hidden;background:radial-gradient(ellipse at 50% 38%,#fbf9f6,#ebe4da 75%);transition:transform .35s var(--ease)}
+.pimg svg{width:78%;height:82%;transition:transform .45s var(--ease);filter:drop-shadow(0 10px 14px rgba(42,36,32,.12))}
+.pcard:hover .pimg svg{transform:scale(1.05) rotate(-1deg)}
+.sw{display:flex;gap:6px;margin:6px 0 4px}
+.sw button{width:18px;height:18px;border-radius:50%;border:2px solid var(--bg);background:var(--c);box-shadow:0 0 0 1px var(--line);cursor:pointer;padding:0;transition:box-shadow .2s,transform .2s}
+.sw button:hover{transform:scale(1.15)}
+.sw button.on{box-shadow:0 0 0 1.5px var(--ink)}
+.pimg em{position:absolute;left:10px;top:10px;font-style:normal;font-size:11.5px;font-weight:600;background:rgba(255,255,255,.85);color:#2a2420;padding:3px 9px;border-radius:20px}
+.pcard h3{font-size:15.5px;font-weight:600;margin:12px 0 2px}
+.pp{margin:0;font-weight:700;font-size:16px}
+.pp small{display:block;font-weight:400;color:var(--muted);font-size:12.5px;margin-top:2px}
+.pact{display:flex;gap:8px;margin-top:10px}
+.psize{flex:1;border:1px dashed color-mix(in srgb,var(--accent) 60%,transparent);background:color-mix(in srgb,var(--accent) 7%,transparent);color:var(--accent);border-radius:12px;padding:9px 10px;font-size:13.5px;font-weight:600;cursor:pointer;transition:background .2s}
+.psize:hover{background:color-mix(in srgb,var(--accent) 15%,transparent)}
+.psize.has{border-style:solid;color:var(--ink)}
+.psize.has b{color:var(--accent)}
+.padd{flex:none;width:42px;border:0;border-radius:12px;background:var(--ink);color:var(--bg);font-size:18px;cursor:pointer}
+.shop-f{text-align:center;color:var(--muted);font-size:13.5px;padding:28px 16px 110px;border-top:1px solid var(--line);line-height:1.7}
+@keyframes rise{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.toast{position:fixed;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:14px;font-size:14px;opacity:0;transition:all .4s var(--ease);z-index:60;pointer-events:none;max-width:calc(100vw - 32px)}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+.spark{position:fixed;pointer-events:none;z-index:70;font-size:16px;animation:sp 1.1s ease-out forwards}
+@keyframes sp{to{transform:translate(var(--x),var(--y)) scale(.4) rotate(160deg);opacity:0}}
+@media (max-width:760px){
+  .shop-nav{display:none}
+  .cart{margin-left:auto}
+  .hero{grid-template-columns:1fr}
+  .hero-art{display:none}
+  .grid{grid-template-columns:repeat(2,1fr);gap:18px 12px}
+  .pact{flex-direction:column}
+  .padd{width:100%;height:36px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}

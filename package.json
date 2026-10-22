@@ -1,0 +1,13 @@
+{
+  "name": "asesora-virtual",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler pages dev",
+    "deploy": "wrangler pages deploy --branch main --commit-dirty=true"
+  },
+  "devDependencies": {
+    "wrangler": "4.42.0"
+  }
+}
