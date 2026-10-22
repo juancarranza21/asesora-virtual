@@ -1,4 +1,4 @@
-// Seguridad: cabeceras, límites de uso y validación (misma base que Candy Fajas).
+// Seguridad: cabeceras, límites de uso y validación.
 
 export const SEC_HEADERS = {
   "Content-Security-Policy": [
